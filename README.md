@@ -1,3 +1,3 @@
-###hi
+### hi
 
-##this repo is just for my notes purposes
+## this repo is just for my notes purposes
