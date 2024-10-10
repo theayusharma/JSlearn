@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a1a1a;
+        color: aliceblue;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center;
+        background-size: cover;
+        } 
+        h2{
+        color:#333275;
+        text-align: center;
+    }
+    .card{
+        background-color: #8c00e3;
+        border-radius: 10px;
+        padding: 30px;
+        width: 300px;   
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    div{
+        border-radius:10px;
+        padding: 2px;
+        margin:10px; 
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+    input{
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #473f3f;
+        border: 2px solid black;
+    }
+    button{
+        background-color: #fff;
+        color: #000000;
+        border-radius: 8px;
+        border: none;  
+        padding: 10px ;
+    }
+    button:hover{
+        background-color: #c28f8f;
+    }
+    </style>
+</head>
+<body>
+    <form class="f1">
+        <div class="card">
+            <h2> login </h2>
+                <input type="email" placeholder="username" >
+                <input type="password"placeholder="password"><br/>
+                <button type="submit">login</button>
+        </div>
+    </form>
+</body>
+</html>
