@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediaform</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .responsive-div{
+            max-width: 600px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #584747;
+        }
+        @media (max-width:601px) {
+            body{
+                align-items: flex-start;
+            }
+            .responsive-div{
+                background-color: #b52929;
+            }
+        }
+        @media (min-width:400px) and (max-width:600px){
+            body{
+                align-items: flex-start;
+            }
+            .responsive-div{
+                background-color: #2effd5;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive-div">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+</body>
+</html>

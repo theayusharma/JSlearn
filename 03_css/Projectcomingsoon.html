@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cattt</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Noto Sans", sans-serif;
+            height: 100%;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #8a2be2, #4169e1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .logo {
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            /* width: 500px;
+            object-fit: contain; */
+        }
+
+        .content {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 470px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+        }
+        h1{
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #666;
+            margin-bottom: 20px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="email"]{
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            
+        }
+        button{
+            padding: 0.5rem;
+            background-color:#892be2; color: #fff;
+            font-size: 15px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover{
+            background-color: #5c3184;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img class="logo " src="../pexels-pixabay-57416.jpg">
+            <h1>catman coming soon</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis amet repellendus autem adipisci
+                doloremque quia eius odio pariatur exercitationem earum aperiam, iure numquam itaque ducimus velit sed
+                nobis. Expedita, autem?</p>
+            <form action="" class="notify">
+                <input type="email" placeholder="enter email">
+                <button type="submit">notify me</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
