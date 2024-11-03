@@ -1,0 +1,2 @@
+content: ["../03_tail/**/*.{html,js}"],
+npx tailwindcss -i ../03_tail/input.css -o ../03_tail/output.css --watch
